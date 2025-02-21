@@ -25,7 +25,7 @@
         <!-- Imagem Hero -->
         <div class="order-1 md:order-2 flex justify-center">
           <img
-            src="@/assets/images/hero.jpg"
+            src="@/public/assets/img/hero.jpg"
             alt="Dra. Giovana Miranda"
             class="w-full h-auto max-w-md rounded-xl shadow-md"
           />

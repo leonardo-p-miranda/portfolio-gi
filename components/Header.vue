@@ -4,7 +4,7 @@
         <!-- LOGO EM IMAGEM -->
         <NuxtLink to="/" class="flex items-center">
           <img
-            src="@/assets/images/logo.jpg"
+            src="@/public/assets/img/logo.jpg"
             alt="Logo Dra. Giovana Miranda"
             class="h-8 object-contain"
           />
