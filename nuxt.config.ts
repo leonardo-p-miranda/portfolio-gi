@@ -3,14 +3,14 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/portfolio/',
     head: {
-      title: "Leo Miranda",
+      title: "Giovana Miranda",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           hid: "description",
           name: "description",
-          content: "Fullstack Developer",
+            content: "Dra. Giovana Miranda",
         },
       ],
     },
