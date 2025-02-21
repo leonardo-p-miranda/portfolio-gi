@@ -41,9 +41,9 @@ interface Testimonial {
   photo: string;
 }
 
-import patient1 from '../public/assets/img/patient1.jpg'
-import patient2 from '../public/assets/img/patient2.jpg'
-import patient3 from '../public/assets/img/patient3.jpg'
+import patient1 from 'public/assets/img/patient1.jpg'
+import patient2 from 'public/assets/img/patient2.jpg'
+import patient3 from 'public/assets/img/patient3.jpg'
 
 const testimonials: Testimonial[] = [
   {

@@ -55,7 +55,7 @@
           />
           <!-- Botão fechar -->
           <button
-            class="absolute top-2 right-2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-80 transition"
+            class="absolute flex justify-center p-0 items-center w-10 h-10 top-2 right-2 text-white text-2xl bg-black bg-opacity-50 p-2 rounded-full hover:bg-opacity-80 transition"
             @click="closeLightbox"
           >
             &times;
