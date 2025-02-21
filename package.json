@@ -14,7 +14,9 @@
     "@nuxt/content": "^2.13.4",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "gh-pages": "^6.2.0",
+    "nodemailer": "^6.10.0",
     "nuxt": "^3.14.1592",
+    "require": "^2.4.20",
     "swiper": "^11.2.4",
     "vue": "latest",
     "vue-router": "latest"

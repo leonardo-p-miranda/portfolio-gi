@@ -8,10 +8,7 @@
           Dê o primeiro passo para alcançar a estética facial dos seus sonhos.
         </p>
   
-        <form
-          @submit.prevent="handleSubmit"
-          class="space-y-4 text-left"
-        >
+        <form @submit.prevent="handleSubmit" class="space-y-4 text-left">
           <div>
             <label for="name" class="block mb-1 font-medium text-gray-700">Nome</label>
             <input
@@ -56,7 +53,7 @@
           </div>
           <button
             type="submit"
-            class="w-full bg-primary text-white p-3 rounded-md font-semibold hover:opacity-90 transition"
+            class="w-full bg-rose-400 text-white p-3 rounded-md font-semibold hover:opacity-90 transition"
           >
             Enviar
           </button>
@@ -75,12 +72,27 @@
     message: ''
   })
   
-  function handleSubmit() {
-    alert(`Obrigado, ${form.name}! Recebemos seu contato e retornaremos em breve.`)
-    form.name = ''
-    form.phone = ''
-    form.email = ''
-    form.message = ''
+  async function handleSubmit() {
+    try {
+      const response = await $fetch('/api/contact', {
+        method: 'POST',
+        body: { ...form }
+      })
+  
+      if (response.success) {
+        alert(`Obrigado, ${form.name}! Recebemos seu contato e retornaremos em breve.`)
+        // Limpar os campos do formulário
+        form.name = ''
+        form.phone = ''
+        form.email = ''
+        form.message = ''
+      } else {
+        alert('Desculpe, ocorreu um erro. Tente novamente.')
+      }
+    } catch (error) {
+      console.error('Erro no envio:', error)
+      alert('Desculpe, ocorreu um erro ao enviar sua mensagem.')
+    }
   }
   </script>
   

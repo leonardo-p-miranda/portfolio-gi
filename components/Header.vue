@@ -4,7 +4,7 @@
         <!-- LOGO EM IMAGEM -->
         <NuxtLink to="/" class="flex items-center">
           <img
-            src="@/assets/images/logo.png"
+            src="@/assets/images/logo.jpg"
             alt="Logo Dra. Giovana Miranda"
             class="h-8 object-contain"
           />
@@ -40,15 +40,15 @@
         </button>
   
         <!-- Navegação normal (desktop) -->
-        <nav class="hidden sm:flex gap-6">
-          <NuxtLink to="/#inicio" class="hover:text-pink-600 font-medium">Início</NuxtLink>
-          <NuxtLink to="/#sobre" class="hover:text-pink-600 font-medium">Sobre Mim</NuxtLink>
-          <NuxtLink to="/#procedimentos" class="hover:text-pink-600 font-medium">Procedimentos</NuxtLink>
-          <NuxtLink to="/#contato" class="hover:text-pink-600 font-medium">Contato</NuxtLink>
+        <nav class="hidden sm:flex gap-6 items-center">
+          <NuxtLink to="/#inicio" class="hover:text-rose-600 font-medium">Início</NuxtLink>
+          <NuxtLink to="/#sobre" class="hover:text-rose-600 font-medium">Sobre Mim</NuxtLink>
+          <NuxtLink to="/#procedimentos" class="hover:text-rose-600 font-medium">Procedimentos</NuxtLink>
+          <NuxtLink to="/#contato" class="hover:text-rose-600 font-medium">Contato</NuxtLink>
           <!-- CTA -->
           <button
             @click="scrollToContact"
-            class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600"
+            class="bg-rose-400 text-white px-4 py-2 rounded hover:bg-rose-600"
           >
             Agendar
           </button>
@@ -64,35 +64,35 @@
           <nav class="flex flex-col gap-4 p-4">
             <NuxtLink
               to="/#inicio"
-              class="hover:text-pink-600 font-medium"
+              class="hover:text-rose-600 font-medium"
               @click="closeMenu"
             >
               Início
             </NuxtLink>
             <NuxtLink
               to="/#sobre"
-              class="hover:text-pink-600 font-medium"
+              class="hover:text-rose-600 font-medium"
               @click="closeMenu"
             >
               Sobre Mim
             </NuxtLink>
             <NuxtLink
               to="/#procedimentos"
-              class="hover:text-pink-600 font-medium"
+              class="hover:text-rose-600 font-medium"
               @click="closeMenu"
             >
               Procedimentos
             </NuxtLink>
             <NuxtLink
               to="/#contato"
-              class="hover:text-pink-600 font-medium"
+              class="hover:text-rose-600 font-medium"
               @click="closeMenu"
             >
               Contato
             </NuxtLink>
             <button
               @click="() => { scrollToContact(); closeMenu(); }"
-              class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600"
+              class="bg-rose-400 text-white px-4 py-2 rounded hover:bg-rose-600"
             >
               Agendar
             </button>

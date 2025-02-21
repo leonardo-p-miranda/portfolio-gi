@@ -17,7 +17,7 @@
           </p>
           <button
             @click="scrollToProcedures"
-            class="bg-primary text-white rounded-md px-6 py-3 font-semibold hover:opacity-90 transition-opacity"
+            class="bg-rose text-white rounded-md px-6 py-3 font-semibold hover:opacity-90 transition-opacity"
           >
             Conheça nossos procedimentos
           </button>

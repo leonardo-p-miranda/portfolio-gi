@@ -12,6 +12,3 @@
 <script setup lang="ts">
 </script>
 
-<style scoped>
-/* Se preferir, pode manter estilos de layout aqui ou usar somente Tailwind */
-</style>
