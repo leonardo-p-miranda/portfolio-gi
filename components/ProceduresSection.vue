@@ -51,9 +51,9 @@
   
   <script setup lang="ts">
   // 1) Import each image directly from public folder
-  import tbImage from 'public/assets/img/procedures/tb.jpg'
-  import facialImage from 'public/assets/img/procedures/preenchimento-facial.jpg'
-  import labialImage from 'public/assets/img/procedures/preenchimento-labial.jpg'
+  import tbImage from '/assets/img/procedures/tb.jpg'
+  import facialImage from '/assets/img/procedures/preenchimento-facial.jpg'
+  import labialImage from '/assets/img/procedures/preenchimento-labial.jpg'
   
   // 2) Define the interface (same as before).
   interface Procedure {

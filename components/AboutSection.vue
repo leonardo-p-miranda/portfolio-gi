@@ -4,7 +4,7 @@
         <!-- Imagem -->
         <div class="md:w-1/2 flex justify-center">
           <img
-            src="@/public/assets/img/giovana1.jpg"
+            src="/assets/img/giovana1.jpg"
             alt="Dra. Giovana"
             class="rounded-xl shadow-lg max-w-sm"
           />
